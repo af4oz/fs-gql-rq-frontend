@@ -1,6 +1,6 @@
 # Typescript Full stack starter (frontend)
-
 It includes user authentication flow based on JWT, refreshTokens, tab synchronization using broadcast channel. It uses React, Graphql, Apollo server, Express, Nexus, React-query, jest, vite, vitest (improved testing for vite).
+> Here's [Backend repo](https://github.com/zkindest/fs-gql-rq-backend)
 
 ## Requirements
 
