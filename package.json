@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace @frontend/web",
+    "precommit": "lint-staged",
+    "prettier:all": "prettier --write .",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@apollo/rover": "^0.4.3",
+    "@types/node": "16.11.26",
+    "@typescript-eslint/eslint-plugin": "5.13.0",
+    "@typescript-eslint/parser": "5.13.0",
+    "concurrently": "7.0.0",
+    "eslint": "8.11.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.6.0",
+    "typescript": "4.6.2"
+  },
+  "lint-staged": {
+    "./**/*.{json,md,css,scss,js,jsx,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "yarn@3.2.0",
+  "engines": {
+    "node": "15.x",
+    "yarn": "1.x"
+  }
+}

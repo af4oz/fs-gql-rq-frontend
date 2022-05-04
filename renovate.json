@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automergeType": "branch",
+      "automerge": true,
+      "commitBody": "Minor updates: [skip ci]",
+      "schedule": ["on the first day of the month"]
+    }
+  ]
+}
