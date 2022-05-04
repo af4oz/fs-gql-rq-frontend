@@ -1,7 +1,7 @@
 {
   "name": "@frontend/web",
   "version": "0.1.0",
-  "homepage": "https://zkindest.github.io/starter-fullstack-graphql-rq/",
+  "homepage": "https://github.com/zkindest/fs-gql-rq-frontend",
   "dependencies": {
     "broadcast-channel": "^4.10.0",
     "graphql": "^16.3.0",

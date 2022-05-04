@@ -9,7 +9,7 @@ import WindiCSS from 'vite-plugin-windicss';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), WindiCSS()],
-  base: '/starter-fullstack-graphql-rq/',
+  base: '/fs-gql-rq-frontend/',
   resolve: {
     alias: {
       '@/': path.join(__dirname, 'src/'),

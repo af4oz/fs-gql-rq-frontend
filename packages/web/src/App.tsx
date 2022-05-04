@@ -10,11 +10,7 @@ const Home = lazy(() => import('./pages/Home'));
 const SignUp = lazy(() => import('./pages/SignUp'));
 const SignIn = lazy(() => import('./pages/SignIn'));
 
-const App = ({
-  basename = '/starter-fullstack-graphql-rq/',
-}: {
-  basename?: string;
-}) => {
+const App = ({ basename = '/fs-gql-rq-frontend/' }: { basename?: string }) => {
   return (
     <BrowserRouter basename={basename}>
       <ErrorBoundary>
